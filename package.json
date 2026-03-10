@@ -4,11 +4,10 @@
   "description": "OpenBlock Blocks is a library for building creative computing interfaces.",
   "author": "Massachusetts Institute of Technology",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/openblockcc/openblock-blocks#readme",
+  "homepage": "https://github.com/karthik-laksman/openblock-blocks#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openblockcc/openblock-blocks.git",
-    "sha": "1b92a9c0fd97e076e4d8811fc2f333804999e0a1"
+    "url": "git+ssh://git@github.com/karthik-laksman/openblock-blocks.git"
   },
   "main": "./dist/vertical.js",
   "browser": "./shim/vertical.js",
