@@ -1,13 +1,14 @@
 {
   "name": "openblock-blocks",
-  "version": "0.1.0",
+  "version": "0.1.0-prerelease.20250611095335",
   "description": "OpenBlock Blocks is a library for building creative computing interfaces.",
   "author": "Massachusetts Institute of Technology",
   "license": "Apache-2.0",
   "homepage": "https://github.com/openblockcc/openblock-blocks#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openblockcc/openblock-blocks.git"
+    "url": "https://github.com/openblockcc/openblock-blocks.git",
+    "sha": "1b92a9c0fd97e076e4d8811fc2f333804999e0a1"
   },
   "main": "./dist/vertical.js",
   "browser": "./shim/vertical.js",

@@ -43,6 +43,10 @@ Blockly.FieldMatrix = function(matrix, opt_width, opt_height) {
   this.height_ = opt_height;
 
   this.addArgType('matrix');
+  this.addArgType('matrix8x8');
+  this.addArgType('matrix8x12');
+
+
   /**
    * Array of SVGElement<rect> for matrix thumbnail image on block field.
    * @type {!Array<SVGElement>}
@@ -57,7 +61,7 @@ Blockly.FieldMatrix = function(matrix, opt_width, opt_height) {
   this.ledButtons_ = [];
   /**
    * String for storing current matrix value.
-   * @type {!String]
+   * @type {!String}
    * @private
    */
   this.matrix_ = '';
@@ -591,3 +595,5 @@ Blockly.FieldMatrix.prototype.dispose_ = function() {
 };
 
 Blockly.Field.register('field_matrix', Blockly.FieldMatrix);
+Blockly.Field.register('field_matrix8x8', Blockly.FieldMatrix);
+Blockly.Field.register('field_matrix8x12', Blockly.FieldMatrix);
